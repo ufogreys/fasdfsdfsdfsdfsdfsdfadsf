@@ -136,13 +136,13 @@ export default function Header() {
               <img src={AuraLogoImg} alt='' className='logo-img' />
             </a>
             <div className='nav-bar'>
-              <a href='https://docs.aura.network/' target='_blank' rel='noreferrer' className='nav-bar-item'>
+              <a href='https://fortresschain.gitbook.io/fortress-chain/' target='_blank' rel='noreferrer' className='nav-bar-item'>
                 Ecosystem
               </a>
-              <a href='https://insight.aura.network/' target='_blank' rel='noreferrer' className='nav-bar-item'>
+              <a href='https://info.fortresschain.finance/' target='_blank' rel='noreferrer' className='nav-bar-item'>
                 Blog
               </a>
-              <a href='https://link3.to/auranetwork' target='_blank' rel='noreferrer' className='nav-bar-item'>
+              <a href='https://linktr.ee/fortresschain/' target='_blank' rel='noreferrer' className='nav-bar-item'>
                 Community{' '}
               </a>
             </div>
@@ -151,23 +151,23 @@ export default function Header() {
               <span className='close' onClick={() => setOpen(false)}></span>
               <PopupContent>
                 <img src={AuraToken} alt='' />
-                <p>Buy AURA Now On</p>
+                <p>Buy FortressChain Token Now On</p>
                 <div>
                   <div>
-                    <div onClick={() => window.open('https://bingx.com/en-us/spot/AURAUSDT/')}>
+                    <div onClick={() => window.open('https://presale.fortresschain.finance/')}>
                       <img src={Bingx} alt='' />
                     </div>
-                    <div onClick={() => window.open('https://halotrade.zone/swap')}>
+                    <div onClick={() => window.open('https://bridge.fortresschain.finance/')}>
                       <img src={Halo} alt='' />
                     </div>
                   </div>
                 </div>
                 <div>
                   <div>
-                    <div onClick={() => window.open('https://www.mexc.com/exchange/AURA_USDT')}>
+                    <div onClick={() => window.open('https://www.gate.io/')}>
                       <img src={Mexc} alt='' />
                     </div>
-                    <div onClick={() => window.open('https://goonus.io/')}>
+                    <div onClick={() => window.open('https://latoken.com/)}>
                       <img src={Onus} alt='' />
                     </div>
                   </div>
