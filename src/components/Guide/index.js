@@ -40,7 +40,7 @@ const Wrap = styled.div`
 export default function Guide() {
     return (
         <Wrap>
-            <h2 className='text__medium'>Build your DApp with Aura</h2>
+            <h2 className='text__medium'>Build your DApp with FortressChain</h2>
             <div>
                 <Card>
                     <img src={IsolationImg} alt='' />
@@ -52,7 +52,7 @@ export default function Guide() {
                 </Card>
                 <Card>
                     <img src={IsolationImg2} alt='' />
-                    <p className='title'>Transform Web2 Portfolio</p>
+                    <p className='title'>Transform Web3 Portfolio</p>
                     <p className='description'>
                         Work with brands, game studios, IP owners on NFT adaptation. Expand the current Web3 user base.
                     </p>
@@ -69,15 +69,15 @@ export default function Guide() {
                     <img src={IsolationImg4} alt='' />
                     <p className='title'>Open Source and Interoperable</p>
                     <p className='description'>
-                        Grow Cosmos’s open-source software. Interoperable with other Cosmos chains.
+                        Grow Avax’s open-source software. Interoperable with other Avax chains.
                     </p>
                 </Card>
             </div>
             <div className='btns'>
-                <Button onClick={() => window.open(' https://docs.aura.network/developer/')}>
+                <Button onClick={() => window.open(' https://fortresschain.gitbook.io/fortress-chain/')}>
                     Developer tutorials
                 </Button>
-                <Button onClick={() => window.open('https://docs.aura.network/validator/')}>Validator materials</Button>
+                <Button onClick={() => window.open('https://fortresschain.gitbook.io/fortress-chain/')}>Validator materials</Button>
             </div>
         </Wrap>
     )
