@@ -173,10 +173,10 @@ export default function Header() {
                   </div>
                 </div>
                 <a
-                  href='https://insight.aura.network/tag/listing/?_ga=2.209879250.616355991.1678432068-522954093.1678432068'
+                  href='https://presale.fortresschain.finance/'
                   target='_blank'
                   rel='noreferrer'>
-                  See more details
+                  Pre-Sale
                 </a>
               </PopupContent>
             </Popup>
