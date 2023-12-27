@@ -193,7 +193,7 @@ export default function Roadmap() {
                     </div>
                     <div>
                         <ul>
-                            <li>SeekHYPE Marketplace</li>
+                            <li>Marketplace</li>
                             <li>Whale Trade DEX</li>
                             <li>EVM support for core products</li>
                         </ul>
