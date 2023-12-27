@@ -20,17 +20,17 @@ export default function Spotlight() {
   return (
     <Container>
       <Wrap>
-        <Card id='aura_scan' backdrop={Backdrop1} logo={AuraLogo} onClick={() => window.open('https://aurascan.io/')}>
-          <p className='title'>Aura Scan</p>
-          <p className='description'>The next generation blockchain explorer for Aura Network.</p>
+        <Card id='aura_scan' backdrop={Backdrop1} logo={AuraLogo} onClick={() => window.open('https://explorer.fortresschain.finance/')}>
+          <p className='title'>FortressChain Scan</p>
+          <p className='description'>The next generation blockchain explorer for FortressChain Network.</p>
           <p className='text__color'>Experience →</p>
         </Card>
         <Card
           id='pyxis_safe'
           backdrop={Backdrop1}
           logo={PyxisLogo}
-          onClick={() => window.open('https://pyxis.aura.network/')}>
-          <p className='title'>Pyxis Safe</p>
+          onClick={() => window.open('https://wallet.fortresschain.finance/')}>
+          <p className='title'>Wallet FortressChain</p>
           <p className='description'>Multi-signature and fine-grain access control asset management tool.</p>
           <p className='text__color'>Experience →</p>
         </Card>
@@ -38,19 +38,19 @@ export default function Spotlight() {
           id='horoscope'
           backdrop={Backdrop1}
           logo={HoroscopeLogo}
-          onClick={() => window.open('https://horoscope.aura.network')}>
-          <p className='title'>Horoscope</p>
-          <p className='description'>An indexing service to provide real-time data for Aura ecosystem.</p>
+          onClick={() => window.open('https://info.fortresschain.finance')}>
+          <p className='title'>DataInfo</p>
+          <p className='description'>An indexing service to provide real-time data for FortressChain ecosystem.</p>
           <p className='text__color'>Experience →</p>
         </Card>
         <Card
           id='seekhype'
           backdrop={Backdrop2}
           logo={SeekHypeLogo}
-          onClick={() => window.open('https://beta.seekhype.io/')}>
-          <p className='title'>SeekHYPE</p>
+          onClick={() => window.open('https://nft.fortress.finance/')}>
+          <p className='title'>FortressNFT</p>
           <p className='description'>
-            Enhance your seamless NFT experience while enjoying utility with premier Web2 brands
+            Enhance your seamless NFT experience while enjoying utility with premier Web3 brands
           </p>
           <p className='text__color'>Experience →</p>
         </Card>
@@ -59,8 +59,8 @@ export default function Spotlight() {
           backdrop={Backdrop3}
           logo={HaloTradeLogo}
           onClick={() => window.open('https://halotrade.zone/')}>
-          <p className='title'>HaloTrade</p>
-          <p className='description'>The first DEX built on Aura Network to swap, farm and earn.</p>
+          <p className='title'>WhaleTrade</p>
+          <p className='description'>The first DEX Multichain built on FortressChain Network, and other Chains to swap, farm and earn.</p>
           <p className='text__color'>Experience →</p>
         </Card>
       </Wrap>
