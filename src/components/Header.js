@@ -167,7 +167,7 @@ export default function Header() {
                     <div onClick={() => window.open('https://www.gate.io/')}>
                       <img src={Mexc} alt='' />
                     </div>
-                    <div onClick={() => window.open('https://latoken.com/)}>
+                    <div onClick={() => window.open('https://latoken.com/')}>
                       <img src={Onus} alt='' />
                     </div>
                   </div>
