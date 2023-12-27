@@ -182,8 +182,8 @@ export default function Roadmap() {
                     <div>
                         <ul>
                             <li>Security Audit</li>
-                            <li>Xstaxy Mainnet Launch</li>
-                            <li>Aura Core Infrastructure product suite (Aurascan, Pyxis Safe, Horoscope)</li>
+                            <li>FortressChain Mainnet Launch</li>
+                            <li>FortressChain Core Infrastructure product suite (Aurascan, Pyxis Safe, Horoscope)</li>
                         </ul>
                     </div>
                 </div>
@@ -194,7 +194,7 @@ export default function Roadmap() {
                     <div>
                         <ul>
                             <li>SeekHYPE Marketplace</li>
-                            <li>Halo Trade DEX</li>
+                            <li>Whale Trade DEX</li>
                             <li>EVM support for core products</li>
                         </ul>
                     </div>
@@ -205,9 +205,9 @@ export default function Roadmap() {
                     </div>
                     <div>
                         <ul>
-                            <li>Minigame Portal</li>
+                            <li>Notice Portal</li>
                             <li>Mobile SDK</li>
-                            <li>MetaGrant onboarding solution</li>
+                            <li>Metaverse Onboarding solution</li>
                         </ul>
                     </div>
                 </div>
@@ -217,8 +217,8 @@ export default function Roadmap() {
                     </div>
                     <div>
                         <ul>
-                            <li>Cross-chain game support through IBC</li>
-                            <li>Market Insight with Whale Map</li>
+                            <li>Cross-chain game support through Bridge</li>
+                            <li>Market Insight with Whale BubbleMaps</li>
                             <li>DeFi/ Liquid Staking Protocols</li>
                         </ul>
                     </div>
