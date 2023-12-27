@@ -130,9 +130,9 @@ export default function Introdution() {
     <Container>
       <Wrap>
         <div className='noti'>
-          <span>Aura Network token migration is available. Follow our guide to migrate now! </span>
+          <span>FortressChain Network token migration is available. Follow our guide to migrate now! </span>
           <span>
-            <Button onClick={() => window.open('https://insight.aura.network/aura-network-token-migration-guide/')}>
+            <Button onClick={() => window.open('https://bridge.fortresschain.finance/')}>
               Migrate Now
             </Button>
           </span>
@@ -145,12 +145,12 @@ export default function Introdution() {
           <img className='aura-img' src={AuraTokenImg} alt='' />
         </div>
         <div className='btn'>
-          <Button onClick={() => window.open(' https://docs.aura.network/')}>Discover more</Button>
+          <Button onClick={() => window.open(' https://bridge.fortresschain.finance/')}>Discover more</Button>
         </div>
         <div className='cd'>
           {new Date('03-20-2023 20:00').getTime() > Date.now() ? (
             <>
-              <p className='countdown-title color__f4'>The Xstaxy Mainnet launch starting in:</p>
+              <p className='countdown-title color__f4'>The FortressChain Mainnet launch starting in:</p>
               <CustomCountdown />
             </>
           ) : null}
