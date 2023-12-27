@@ -183,7 +183,7 @@ export default function Roadmap() {
                         <ul>
                             <li>Security Audit</li>
                             <li>FortressChain Mainnet Launch</li>
-                            <li>FortressChain Core Infrastructure product suite (Aurascan, Pyxis Safe, Horoscope)</li>
+                            <li>FortressChain Core Infrastructure product suite (FortressChain Scan, Fortress Wallet, InfoData)</li>
                         </ul>
                     </div>
                 </div>
@@ -218,7 +218,7 @@ export default function Roadmap() {
                     <div>
                         <ul>
                             <li>Cross-chain game support through Bridge</li>
-                            <li>Market Insight with Whale BubbleMaps</li>
+                            <li>Market Insight with Whales BubbleMaps</li>
                             <li>DeFi/ Liquid Staking Protocols</li>
                         </ul>
                     </div>
