@@ -39,7 +39,7 @@ export default function Spotlight() {
           backdrop={Backdrop1}
           logo={HoroscopeLogo}
           onClick={() => window.open('https://info.fortresschain.finance')}>
-          <p className='title'>DataInfo</p>
+          <p className='title'>Data Info</p>
           <p className='description'>An indexing service to provide real-time data for FortressChain ecosystem.</p>
           <p className='text__color'>Experience →</p>
         </Card>
@@ -58,8 +58,8 @@ export default function Spotlight() {
           id='halotrade'
           backdrop={Backdrop3}
           logo={HaloTradeLogo}
-          onClick={() => window.open('https://halotrade.zone/')}>
-          <p className='title'>WhaleTrade</p>
+          onClick={() => window.open('https://bridge.fortresschain.finance/')}>
+          <p className='title'>Whale Trade</p>
           <p className='description'>The first DEX Multichain built on FortressChain Network, and other Chains to swap, farm and earn.</p>
           <p className='text__color'>Experience →</p>
         </Card>
