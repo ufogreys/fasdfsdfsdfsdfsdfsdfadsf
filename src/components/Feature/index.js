@@ -151,7 +151,7 @@ export default function Feature() {
                             <img src={ArrowRight} alt="arrow-right" />
                         </div>
                         <Gap height={40} />
-                        <Button onClick={() => window.open("https://docs.aura.network/overview/intro")}>
+                        <Button onClick={() => window.open("https://fortresschain.gitbook.io/fortress-chain")}>
                             Discover more
                         </Button>
                     </div>
@@ -188,9 +188,9 @@ export default function Feature() {
                             <Card>
                                 <div>
                                     <img src={Img4} alt="" />
-                                    <p className="title">Ecosystem funding and venture focused on Cosmos growth</p>
+                                    <p className="title">Ecosystem funding and venture focused on Avax growth</p>
                                     <p className="des">
-                                        Focused on Cosmos growth, ranging from infrastructure, applications, and other
+                                        Focused on Avax growth, ranging from infrastructure, applications, and other
                                         services
                                     </p>
                                 </div>
