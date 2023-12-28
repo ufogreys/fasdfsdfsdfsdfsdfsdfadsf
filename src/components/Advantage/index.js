@@ -48,7 +48,7 @@ export default function Advantage() {
                 <h2 className='text__medium'>Powerful tools to BUIDL NFT projects</h2>
                 <div>
                     <Card>
-                        <p className='title'>Sovereign blockchain using Cosmos SDK, CosmWasm and IBC compatible</p>
+                        <p className='title'>Sovereign blockchain using Avax SDK, Avalanche compatible</p>
                     </Card>
                     <Card>
                         <p className='title'>Optimized modules and block spaces for customisable NFT solutions</p>
@@ -61,7 +61,7 @@ export default function Advantage() {
                     </Card>
                 </div>
                 <Gap height={32} mHeight={16} />
-                <Button onClick={() => window.open('https://docs.aura.network/developer/')}>Build now</Button>
+                <Button onClick={() => window.open('https://fortresschain.gitbook.io/fortress-chain/')}>Build On Chain</Button>
             </Wrap>
         </Container>
     )
