@@ -134,14 +134,14 @@ export default function MFeature() {
                     className={`feature-item ${index === 3 ? "active" : ""}`}
                     onClick={() => (index === 3 ? setIndex(-1) : setIndex(3))}>
                     <div className={`feature-banner `}>
-                        <p>Ecosystem funding and venture focused on Cosmos growth</p>
+                        <p>Ecosystem funding and venture focused on Avax growth</p>
                         <img src={Arrow} alt="arrow-right" />
                     </div>
                     <Card className="feature-content">
                         <img src={Img4} alt="" />
-                        <p className="title">Ecosystem funding and venture focused on Cosmos growth</p>
+                        <p className="title">Ecosystem funding and venture focused on Avax growth</p>
                         <p className="des">
-                            Focused on Cosmos growth, ranging from infrastructure, applications, and other services
+                            Focused on Avax growth, ranging from infrastructure, applications, and other services
                         </p>
                     </Card>
                 </div>
