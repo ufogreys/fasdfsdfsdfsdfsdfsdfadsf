@@ -111,21 +111,21 @@ export default function Footer() {
                         <div className="nav-bar__col">
                             <p>Developer</p>
                             <a
-                                href="https://docs.aura.network/"
+                                href="https://fortresschain.gitbook.io/fortress-chain/"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="nav-bar-item">
                                 Docs
                             </a>
                             <a
-                                href="https://docs.aura.network/developer/"
+                                href="https://fortresschain.gitbook.io/fortress-chain/"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="nav-bar-item">
                                 Tools
                             </a>
                             <a
-                                href="https://bscscan.com/address/0x23c5D1164662758b3799103Effe19cC064d897D6"
+                                href="https://bscscan.com/address/0x0b5c7fb736f29391b3ae0eee34f2b843474bac13"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="nav-bar-item">
@@ -135,21 +135,21 @@ export default function Footer() {
                         <div className="nav-bar__col">
                             <p>Ecosystem</p>
                             <a
-                                href="https://github.com/aura-nw/whitepaper/blob/main/release/Aura_Network___whitepaper.pdf"
+                                href="https://fortresschain.gitbook.io/fortress-chain/"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="nav-bar-item">
                                 Whitepaper
                             </a>
                             <a
-                                href="https://docs.aura.network/overview/intro/"
+                                href="https://fortresschain.gitbook.io/fortress-chain/"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="nav-bar-item">
                                 DApps
                             </a>
                             <a
-                                href="https://docs.aura.network/overview/tokenomic/"
+                                href="https://fortresschain.gitbook.io/fortress-chain/"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="nav-bar-item">
@@ -159,7 +159,7 @@ export default function Footer() {
                         <div className="nav-bar__col">
                             <p>Career</p>
                             <a
-                                href="https://www.notion.so/Aura-Job-Board-172bb39a89d844b0a0e1d8871026dc23"
+                                href="https://fortresschain.gitbook.io/fortress-chain/"
                                 target="_blank"
                                 rel="noreferrer"
                                 className="nav-bar-item">
@@ -168,22 +168,12 @@ export default function Footer() {
                         </div>
                     </div>
                     <div className="links">
-                        <img onClick={() => window.open(" https://twitter.com/AuraNetworkHQ")} src={Twitter} alt="" />
-                        <img
-                            onClick={() => window.open("https://discord.com/invite/ZFHepmtZvr")}
-                            src={Discord}
-                            alt=""
-                        />
-                        <img onClick={() => window.open("https://t.me/AuraNetworkOfficial")} src={Telegram} alt="" />
-                        <img
-                            onClick={() => window.open("https://www.linkedin.com/company/auranetwork/")}
-                            src={LinkedIn}
-                            alt=""
-                        />
-                        <img onClick={() => window.open("https://github.com/aura-nw")} src={Github} alt="" />
+                        <img onClick={() => window.open("https://twitter.com/fortresschain")} src={Twitter} alt="" />
+                        <img onClick={() => window.open("https://t.me/fortresschain")} src={Telegram} alt="" />
+                        <img onClick={() => window.open("https://fortresschain.gitbook.io/fortress-chain/")} src={Github} alt="" />
                     </div>
                 </div>
-                <Copyright>© Aura Network {new Date().getFullYear()}.</Copyright>
+                <Copyright>© FortressChain Network {new Date().getFullYear()}.</Copyright>
             </Wrap>
         </Container>
     )
