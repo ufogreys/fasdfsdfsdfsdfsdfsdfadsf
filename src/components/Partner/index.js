@@ -84,12 +84,7 @@ export default function Partner() {
                 <img src={gateio} alt='' />
                 <img src={ecomobi} alt='' />
                 <img src={kyber} alt='' />
-                    </div>
-                    <p>and many others</p>
+            </div>
                 </>
-            ) : (
-                <button onClick={() => setOpen(!open)}>See all </button>
-            )}
-        </Wrap>
     )
 }
