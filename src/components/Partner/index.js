@@ -86,5 +86,6 @@ export default function Partner() {
                 <img src={kyber} alt='' />
             </div>
                 </>
+        <Wrap>
     )
 }
