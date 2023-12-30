@@ -145,7 +145,7 @@ export default function Introdution() {
           <img className='aura-img' src={AuraTokenImg} alt='' />
         </div>
         <div className='btn'>
-          <Button onClick={() => window.open(' https://bridge.fortresschain.finance/')}>Pre-Sale Ongoing on BSC</Button>
+          <Button onClick={() => window.open(' https://presale.fortresschain.finance/')}>Pre-Sale Ongoing on BSC</Button>
         </div>
         <div className='cd'>
           {new Date('03-20-2023 20:00').getTime() > Date.now() ? (
